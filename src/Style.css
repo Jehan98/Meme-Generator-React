@@ -2,6 +2,7 @@
     max-height: 120px;
     margin: 1%;
     margin-left: 10%;
+    
 }
 
 .header-div{
@@ -12,8 +13,28 @@
 .h1-header{
     float: right;
     margin: 2%;
-    margin-top: 5%;
-    margin-right: 40%;
+    margin-top: 3%;
+    margin-right: 10%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(163, 26, 26);
+    float: right;
+}
+
+.form-div{
+    margin: 5%;
+}
+
+.meme-pic{
+    margin: 2%;
+    background-color: blanchedalmond;
+}
+
+.img-memepic{
+    margin: 5%;
+    max-width: 500px;
+    margin-left: 15%;
+}
+
+.text-center{
+    text-align: center;
 }
