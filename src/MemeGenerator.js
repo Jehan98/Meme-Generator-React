@@ -57,7 +57,7 @@ class MemeGenerator extends React.Component{
                         />
                     <br/>
                     <br/>
-                    <input type="submit" name="submit" value="Gen"/>
+                    <input type="submit" className="button-submit" name="submit" value="Gen"/>
                 </form>
                 <div className="meme-pic">
                     <br/>
