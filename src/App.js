@@ -1,15 +1,12 @@
 import React from "react";
-import Style from "./Style.css";
-import JokesData from "./JokesData";
-import Jokes from "./Jokes";
+import Header from "./Header";
+import MemeGenerator from "./MemeGenerator";
 
 function App(){
-    const JokeComponents = JokesData.map(joke => <Jokes key={joke.id} question = {joke.question} answer={joke.answer}/>)
-    return (
-        <div className="Hi">
-            {JokeComponents}
-        </div>
-    )
-}
+    return (<div>
+        <Header />
+        <MemeGenerator />
+        </div>)
+} 
 
 export default App

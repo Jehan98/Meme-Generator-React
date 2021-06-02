@@ -1,3 +1,19 @@
-.Hi{
-    background-color: rgb(112, 112, 171);
+.img-header{
+    max-height: 120px;
+    margin: 1%;
+    margin-left: 10%;
+}
+
+.header-div{
+    border: 2px solid rgb(187, 67, 67);
+    background-color: rgb(216, 157, 69);
+}
+
+.h1-header{
+    float: right;
+    margin: 2%;
+    margin-top: 5%;
+    margin-right: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(163, 26, 26);
 }
